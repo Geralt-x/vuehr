@@ -27,6 +27,7 @@ public class EmployeeService {
     RabbitTemplate rabbitTemplate;
     @Autowired
     MailSendLogService mailSendLogService;
+
     public final static Logger logger = LoggerFactory.getLogger(EmployeeService.class);
     SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
     SimpleDateFormat monthFormat = new SimpleDateFormat("MM");
